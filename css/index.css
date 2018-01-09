@@ -1,0 +1,18 @@
+﻿
+
+
+
+/**预约座位和座位布局图*/
+
+.layout{ background-color:#fbfbfb; border:#d7d7d7 1px solid; border-radius:4px; box-shadow:0 0 6px #bebcbc inset; padding:20px 5px;}
+.modal-header h4{ font-size:20px; font-family: "幼圆",微软雅黑,"Helvetica",Arial;}
+
+.icon_lists{ margin-left:20px;} 
+.itaic i{ float:left; background-repeat:no-repeat;  background-position:left center; text-indent:30px;font:lighter  18px/50px  "幼圆",微软雅黑,"Helvetica",Arial; height:50px; margin-left:10px; display:inline;}
+.icon_lists .icon{ font-size:70px; cursor:pointer;}
+.icon_lists i{ position:relative;}
+.icon_lists .icon b{ text-align:center; position:absolute; left:0; top:0;width:100%; height:70px; color:#6c6c6c; font:normal 16px/55px  "mmm";}
+.icon_lists .icon.current{ color: #c14a48;}
+.icon_lists .icon.current b{ color:#fff;}
+.icon_lists .icon{ width:70px; height:70px; float:left; position:relative;margin:0 7px 20px 0;}
+
