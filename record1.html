@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>记录</title>
+<style>
+    .btn{
+        width:120px;
+        height:50px;
+        background:coral;
+        font-family: 宋体;
+        font-size: 20px;
+        position: absolute;
+        left:1200px;
+        top:20px
+
+    }
+.panel-heading{
+    background:#ffe4cd;
+    width: 100%;
+    height:35px;
+
+}
+    .panel-body {
+        border:1px solid lightgrey;
+        width: 100%;
+        height:80px;
+        font-family:宋体;
+        position: relative;
+
+    }
+    .panel-title{
+        border:1px solid lightgrey;
+        width: 100%;
+        height:35px;
+        font-family:宋体;
+        font-weight: bold;
+
+    }
+
+    </style>
+</head>
+<body>
+        <div class="panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">1月14日 16:22成功预约</h3>
+            </div>
+            <div class="panel-body">
+                您成功在1月14日 16:22-17:22预约 四楼22号座位<br>
+                <button onclick="location.href='seat.html'" class="btn">取消预约</button>
+
+            </div>
+        </div>
+        <div class="panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">进入黑名单</h3>
+            </div>
+            <div class="panel-body">
+                您未在规定时间内签到，现已进入黑名单!
+            </div>
+        </div>
+        <div class="panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">进入黑名单</h3>
+            </div>
+            <div class="panel-body">
+                您未在使用时间结束后签退，现已进入黑名单!
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
